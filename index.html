@@ -7,66 +7,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container mt-5 bg-test test-center">
+    <div class="container mt-5 main bg-dark p-4 rounded ">
         <div class="row">
-            <div class="col-9 mb-3 mt-3">
-                <input type="text" class="form-control" id="display" disabled>
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="display">
             </div>
           </div>
         <div class="row">
             <div class="col mt-3">
-              <input type="button" value="7" onclick="appendToDisplay('7')">
+              <input type="button" class="btn-calc" value="7" onclick="appendToDisplay('7')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="8" onclick="appendToDisplay('8')">
+                <input type="button" value="8" class="btn-calc" onclick="appendToDisplay('8')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="9" onclick="appendToDisplay('9')">
+                <input type="button" value="9" class="btn-calc" onclick="appendToDisplay('9')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="+" onclick="appendToDisplay('+')">
+                <input type="button" value="+" class="btn-calc" onclick="appendToDisplay('+')">
             </div>
         </div>
         <div class="row">
             <div class="col mt-3">
-                <input type="button" value="4" onclick="appendToDisplay('4')">
+                <input type="button" value="4" class="btn-calc" onclick="appendToDisplay('4')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="5" onclick="appendToDisplay('5')">
+                <input type="button" value="5" class="btn-calc" onclick="appendToDisplay('5')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="6" onclick="appendToDisplay('6')">
+                <input type="button" value="6" class="btn-calc" onclick="appendToDisplay('6')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="-" onclick="appendToDisplay('-')">
+                <input type="button" value="-" class="btn-calc" onclick="appendToDisplay('-')">
               </div>
           </div>
           <div class="row">
             <div class="col mt-3">
-                <input type="button" value="1" onclick="appendToDisplay('1')">
+                <input type="button" value="1" class="btn-calc" onclick="appendToDisplay('1')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="2" onclick="appendToDisplay('2')">
+                <input type="button" value="2" class="btn-calc" onclick="appendToDisplay('2')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="3" onclick="appendToDisplay('3')">
+                <input type="button" value="3" class="btn-calc" onclick="appendToDisplay('3')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="*" onclick="appendToDisplay('*')">
+                <input type="button" value="*" class="btn-calc" onclick="appendToDisplay('*')">
               </div>
           </div>
           <div class="row">
             <div class="col mt-3">
-              <input type="button" value="0" onclick="appendToDisplay('0')">
+              <input type="button" value="0" class="btn-calc" onclick="appendToDisplay('0')">
             </div>
             <div class="col mt-3">
-              <input type="button" value="C" onclick="clearDisplay()">
+              <input type="button" value="C" class="btn-calc buttonRed" onclick="clearDisplay()">
             </div>
             <div class="col mt-3">
-              <input type="button" value="=" onclick="calculateResult()">
+              <input type="button" value="=" class="btn-calc" onclick="calculateResult()">
             </div>
             <div class="col mt-3 mb-3">
-                <input type="button" value="/" onclick="appendToDisplay('/')">
+                <input type="button" value="/" class="btn-calc" onclick="appendToDisplay('/')">
               </div>
           </div>
     </div>

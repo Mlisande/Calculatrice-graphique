@@ -1,9 +1,24 @@
-.bg-test{
-    background-color: pink;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
 
-.margin-row{
-    margin-top: 2rem;
+.main{
+   color: #fff;
+   height: auto;
+   width: 270px;
 }
+
+.btn-calc {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.buttonRed{
+    background-color: red;
+}
+
+
 

@@ -5,9 +5,14 @@
     <title>Calculatrice Graphique</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container mt-5 main bg-dark p-4 rounded ">
+    <h1>My first graphic calculator</h1>
+    <h4>with HTML, Bootstrap and Javascript</h4>
+    <div class=" container mt-5 main bg-dark p-4 rounded ">
         <div class="row">
             <div class="col-md-12">
                 <input type="text" class="form-control" id="display">
@@ -15,58 +20,58 @@
           </div>
         <div class="row">
             <div class="col mt-3">
-              <input type="button" class="btn-calc" value="7" onclick="appendToDisplay('7')">
+              <input type="button" class="btn-calc rounded" value="7" onclick="appendToDisplay('7')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="8" class="btn-calc" onclick="appendToDisplay('8')">
+                <input type="button" value="8" class="btn-calc rounded" onclick="appendToDisplay('8')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="9" class="btn-calc" onclick="appendToDisplay('9')">
+                <input type="button" value="9" class="btn-calc rounded" onclick="appendToDisplay('9')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="+" class="btn-calc" onclick="appendToDisplay('+')">
+                <input type="button" value="+" class="btn-calc rounded" onclick="appendToDisplay('+')">
             </div>
         </div>
         <div class="row">
             <div class="col mt-3">
-                <input type="button" value="4" class="btn-calc" onclick="appendToDisplay('4')">
+                <input type="button" value="4" class="btn-calc rounded" onclick="appendToDisplay('4')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="5" class="btn-calc" onclick="appendToDisplay('5')">
+                <input type="button" value="5" class="btn-calc rounded" onclick="appendToDisplay('5')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="6" class="btn-calc" onclick="appendToDisplay('6')">
+                <input type="button" value="6" class="btn-calc rounded" onclick="appendToDisplay('6')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="-" class="btn-calc" onclick="appendToDisplay('-')">
+                <input type="button" value="-" class="btn-calc rounded" onclick="appendToDisplay('-')">
               </div>
           </div>
           <div class="row">
             <div class="col mt-3">
-                <input type="button" value="1" class="btn-calc" onclick="appendToDisplay('1')">
+                <input type="button" value="1" class="btn-calc rounded" onclick="appendToDisplay('1')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="2" class="btn-calc" onclick="appendToDisplay('2')">
+                <input type="button" value="2" class="btn-calc rounded" onclick="appendToDisplay('2')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="3" class="btn-calc" onclick="appendToDisplay('3')">
+                <input type="button" value="3" class="btn-calc rounded" onclick="appendToDisplay('3')">
             </div>
             <div class="col mt-3">
-                <input type="button" value="*" class="btn-calc" onclick="appendToDisplay('*')">
+                <input type="button" value="*" class="btn-calc rounded" onclick="appendToDisplay('*')">
               </div>
           </div>
           <div class="row">
             <div class="col mt-3">
-              <input type="button" value="0" class="btn-calc" onclick="appendToDisplay('0')">
+              <input type="button" value="0" class="btn-calc rounded" onclick="appendToDisplay('0')">
             </div>
             <div class="col mt-3">
-              <input type="button" value="C" class="btn-calc buttonRed" onclick="clearDisplay()">
+              <input type="button" value="C" class="btn-calc rounded btnRed" onclick="clearDisplay()">
             </div>
             <div class="col mt-3">
-              <input type="button" value="=" class="btn-calc" onclick="calculateResult()">
+              <input type="button" value="=" class="btn-calc rounded" onclick="calculateResult()">
             </div>
             <div class="col mt-3 mb-3">
-                <input type="button" value="/" class="btn-calc" onclick="appendToDisplay('/')">
+                <input type="button" value="/" class="btn-calc rounded" onclick="appendToDisplay('/')">
               </div>
           </div>
     </div>

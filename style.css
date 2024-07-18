@@ -1,9 +1,38 @@
-.bg-test{
-    background-color: pink;
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Space Mono",'Courier New', Courier, monospace;
+}
+
+h1, h4{
     text-align: center;
 }
 
-.margin-row{
-    margin-top: 2rem;
+h1{
+    font-weight: bold;
+    margin-top: 1rem;
 }
+
+.main{
+   color: #fff;
+   height: auto;
+   width: 270px;
+}
+
+.btn-calc {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btnRed{
+    background-color: red;
+}
+
+
 
